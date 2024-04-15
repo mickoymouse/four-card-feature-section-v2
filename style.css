@@ -14,7 +14,7 @@
     --clr-orange: hsl(34, 97%, 64%);
     --clr-blue: hsl(212, 86%, 64%);
     --clr-bluegray: hsl(229, 6%, 66%);
-    --clr-gray: hsl(234, 12%, 34%);
+    --clr-gray: hsl(232, 12%, 34%);
     --clr-gray-light: hsl(0, 0%, 98%);
 }
 
@@ -82,6 +82,7 @@ body {
         > p {
             text-align: center;
             line-height: 1.6;
+            font-weight: var(--fw-light);
         }
     }
 }
@@ -119,9 +120,9 @@ body {
         color: var(--clr-gray);
     }
 
-    > p {
+    > div > p {
         font-size: var(--fs-13);
-        font-weight: var(--fw-regular);
+        font-weight: var(--fw-light);
     }
 
     > img {
@@ -184,12 +185,6 @@ body {
             width: 50%;
             margin: 50px auto;
             text-align: center;
-
-            > p {
-                font-size: var(--fs-15);
-                font-weight: var(--fw-regular);
-                color: var(--clr-gray);
-            }
         }
     }
 
