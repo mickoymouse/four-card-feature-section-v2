@@ -87,7 +87,7 @@ body {
 }
 
 .heading {
-    font-size: var(--fs-36);
+    font-size: var(--fs-24);
     font-weight: var(--fw-light);
     text-align: center;
     > span {
@@ -112,6 +112,17 @@ body {
 
     display: grid;
     gap: 1.5rem;
+
+    > h2 {
+        font-size: var(--fs-20);
+        font-weight: var(--fw-bold);
+        color: var(--clr-gray);
+    }
+
+    > p {
+        font-size: var(--fs-13);
+        font-weight: var(--fw-regular);
+    }
 
     > img {
         justify-self: end;
@@ -169,10 +180,20 @@ body {
     }
 
     .wrapper {
-        >header {
+        > header {
             width: 50%;
             margin: 50px auto;
             text-align: center;
+
+            > p {
+                font-size: var(--fs-15);
+                font-weight: var(--fw-regular);
+                color: var(--clr-gray);
+            }
         }
+    }
+
+    .heading {
+        font-size: var(--fs-36);
     }
 }
